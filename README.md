@@ -203,7 +203,7 @@ Then open `http://127.0.0.1:8050` in your browser.
 
 ## 📬 Contact
 
-**[Your Name]**
+**Nelson Benítez**
 - GitHub: [@NelsonBenitez](https://github.com/NelsonBenitez)
 - LinkedIn: www.linkedin.com/in/nelsonbenitezm
 - Email: nelson.benitez@udea.edu.co
