@@ -32,6 +32,7 @@ RFM customer segmentation, and an interactive dashboard.
 ---
 
 ## 🗂️ Project Structure
+~~~
 ecommerce-sales-analysis/
 │
 ├── data/
@@ -52,7 +53,7 @@ ecommerce-sales-analysis/
 ├── requirements.txt
 └── README.md
 
----
+~~~
 
 ## 🔍 Dataset
 
