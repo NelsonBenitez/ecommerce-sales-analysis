@@ -129,12 +129,14 @@ Demonstrated SQL proficiency using SQLite inside Python:
 | Segment | Customers | % of Revenue |
 |---|---|---|
 | Champions | 1,297 | 68.4% |
-| Loyal Customers | — | — |
-| Potential Loyalists | — | — |
-| At Risk | — | — |
-| Lost | — | — |
+| Loyal Customers | 1123 | 14.4% |
+| Potential Loyalists | 436 | 1.1% |
+| At Risk | 616 | 8.9% |
+| Lost | 1269 | 1.8% |
+| New Customers | 451 | 2.4% |
+| Hibernating | 457 | 2.3% |
+| Need Attention | 213 | 0.7% |
 
-> Fill in the remaining rows from your Cell 5 output
 
 ---
 
@@ -184,13 +186,16 @@ and place the `.xlsx` file in `data/raw/`
 **4. Run the notebooks in order**
 
 notebooks/01_data_cleaning.ipynb
+
 notebooks/02_sql_analysis.ipynb
+
 notebooks/03_eda.ipynb
+
 notebooks/04_rfm_segmentation.ipynb
 
 **5. Launch the dashboard**
 ```bash
-python app.py
+python3 app.py
 ```
 Then open `http://127.0.0.1:8050` in your browser.
 
