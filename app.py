@@ -9,8 +9,13 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # ── Data ──────────────────────────────────────────────────────────────────────
-df  = pd.read_csv('data/online_retail_clean.csv', parse_dates=['invoicedate'])
-rfm = pd.read_csv('data/rfm_segments.csv')
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+df  = pd.read_csv(os.path.join(BASE_DIR, 'data', 'online_retail_clean.csv'),
+                  parse_dates=['invoicedate'])
+rfm = pd.read_csv(os.path.join(BASE_DIR, 'data', 'rfm_segments.csv'))
 
 df['year_month'] = df['invoicedate'].dt.to_period('M').astype(str)
 df['day_of_week'] = df['invoicedate'].dt.day_name()
@@ -39,6 +44,7 @@ SEGMENT_COLORS = {
 
 # ── App ───────────────────────────────────────────────────────────────────────
 app = dash.Dash(__name__, title='E-Commerce Sales Dashboard')
+server = app.server
 
 # ── Helper components ─────────────────────────────────────────────────────────
 def kpi_card(title, value, color):
