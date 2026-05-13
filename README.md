@@ -25,7 +25,7 @@ RFM customer segmentation, and an interactive dashboard.
 
 ## 📊 Dashboard Preview
 
-> 🔗 [Launch Interactive Dashboard](#) ← add your deployed link here later
+> 🔗 [Launch Interactive Dashboard](https://ecommerce-sales-analysis-mm2o.onrender.com)
 
 ![Dashboard Page 1](outputs/figures/dashboard_page1.png)
 
