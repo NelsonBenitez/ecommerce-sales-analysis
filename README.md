@@ -25,11 +25,12 @@ RFM customer segmentation, and an interactive dashboard.
 
 ## 📊 Dashboard Preview
 
-> 🔗 [Launch Interactive Dashboard](https://ecommerce-sales-analysis-mm2o.onrender.com)
+> 🔗 [Launch Interactive Dashboard](https://ecommerce-sales-analysis-production.up.railway.app/)
+> 🔗 [Alternative Interactive Dashboard](https://ecommerce-sales-analysis-mm2o.onrender.com)
 
-![Dashboard Executive Overview](outputs/figures/dashboard_page1.png)
-![Dashboard RFM Segmentation](outputs/figures/dashboard_page1.png)
-![Dashboard Customer Behavior](outputs/figures/dashboard_page1.png)
+![Dashboard Executive Overview](outputs/figures/Executive_Overview.png)
+![Dashboard RFM Segmentation](outputs/figures/RFM_Segmentation.png)
+![Dashboard Customer Behavior](outputs/figures/Customer_Behavior.png)
 
 ---
 
